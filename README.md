@@ -8,11 +8,6 @@ Variables/Data setup:
 •	Output data.mat
 
 Solve DSGE:
-Before run it, please download dynare 6.0 into ur C.Drive
-Execute Dynare, command:
->> addpath("C:\dynare\6.0\matlab")
->> cd C:\Users\kdai\Desktop\RStar\DSGE
->> dynare NRI_baseline_euro_area_new
 •	Run NRI_baseline_euro_area.mod for Inference (MCMC should take 2 hours)
 •	Obtain r star estimates in GeraliNeri_full_sample_results.xlsx.
 •	Output GeraliNeri_euro_area_full_sample_results.mat.
